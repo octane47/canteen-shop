@@ -1,0 +1,5 @@
+name=str(input("enter your name:"))
+print ("kia ora", name)
+print ("this is the fraser high school canteen, which of the following would you like to eat")
+answer = (input ("enter pie or burger?"))
+answer = ("that'll be 4.50")
