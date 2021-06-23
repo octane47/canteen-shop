@@ -1,14 +1,9 @@
-
-
-# Funtions go here...
-name=str(input("whats your name: "))
-print ("kia ora", name)
-print ("this is the fraser high school canteen, would you like to see our menu")
+#Funtions go here...
 
 def yes_no(question):
     vaild = False
     while not vaild:
-        response = input(question).lower()
+        response = input("would you like to see the canteen menu").lower()
 
         if response == "yes" or response == "y":
             response = "yes "
@@ -23,3 +18,10 @@ def yes_no(question):
         else:
             print("please answer yes / no")
 
+# Main Routine goes here...
+name = str(input("whats your name"))
+print("kia ora", name)
+
+
+
+ 
