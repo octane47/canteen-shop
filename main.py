@@ -1,21 +1,17 @@
 from testing import*
 #Funtions go here...
-def yes_no(question):
+def pie_burger(question):
     vaild = False
     while not vaild:
         response = input(question).lower()
 
-        if response == "yes" or response == "y":
-            response = "yes" 
+        if response == "pie" or response == "Pie":
             print(" we currently only have pies and burgers in store")
             print("burgers are $7.89 and pies are $4.50")
 
         if response == "no" or response == "n":
-            response = "no"
-            return response
+            print(" thank you for buying at fraser high school canteen")
 
-        else:
-            print("please answer yes / no")
 
 #Main Routine goes here...
 name = str(input("whats your name"))
